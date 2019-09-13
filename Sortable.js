@@ -2396,7 +2396,7 @@
         }
 
         if (this.options.group.revertClone) {
-          this._animate(dragEl, cloneEl);
+          this.animate(dragEl, cloneEl);
         }
 
         css(cloneEl, 'display', '');
